@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountYear", "CountYear\Coun
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiagonalNumber", "DiagonalNumber\DiagonalNumber.csproj", "{48D09C79-1A51-4301-B1BA-C645582C4C99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TakeNumberAndMod2IfCount1", "TakeNumberAndMod2IfCount1\TakeNumberAndMod2IfCount1.csproj", "{6C438EE4-EA6B-4A48-B80F-76C021077832}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TakeNumberAndMod2IfCount1", "TakeNumberAndMod2IfCount1\TakeNumberAndMod2IfCount1.csproj", "{6C438EE4-EA6B-4A48-B80F-76C021077832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonthsChecker", "GivenStringConvertToNumber\MonthsChecker.csproj", "{5F5F4A5B-D182-414C-9C52-B1B6D4445AEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{6C438EE4-EA6B-4A48-B80F-76C021077832}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C438EE4-EA6B-4A48-B80F-76C021077832}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C438EE4-EA6B-4A48-B80F-76C021077832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F5F4A5B-D182-414C-9C52-B1B6D4445AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F5F4A5B-D182-414C-9C52-B1B6D4445AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F5F4A5B-D182-414C-9C52-B1B6D4445AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F5F4A5B-D182-414C-9C52-B1B6D4445AEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

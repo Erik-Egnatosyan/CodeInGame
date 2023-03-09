@@ -4,22 +4,28 @@
     {
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine());
-            string ns = n.ToString();
-            string temp = "";
+            string number = "6";
             int sum = 0;
-            for (int i = 0; sum.ToString().Length > 1; i++)
+            if(number.Length != 1)
             {
-                if (sum.ToString().Length != 0)
-                    sum += Convert.ToInt32(ns[i].ToString());
-                if (i == ns.Length - 1)
-                    temp = sum.ToString();
-                if (temp.Length > 1)
-                    sum += Convert.ToInt32(temp[i].ToString());
-                if (temp.Length == 1)
-                    sum %= 2;
+                for (int i = 0; i < number.Length; i++)
+                {
+                    sum += Convert.ToInt32(number[i].ToString());
+                    if (sum.ToString().Length > 1 && i == number.Length - 1)
+                    {
+                        number = sum.ToString();
+                        sum = 0;
+                        i = -1;
+                    }
+                }
+                Console.WriteLine(sum);
             }
-            Console.WriteLine(sum);
+            else
+            {
+                sum = Convert.ToInt32(number);
+                Console.WriteLine(sum%=2);
+            }
+                
         }
     }
 }
