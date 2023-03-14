@@ -4,22 +4,21 @@
     {
         static void Main(string[] args)
         {
-            int n = 8;
+            string[] inputs = "4 blue 7 blue 7 yellow 7 green 0 green 1 green 1 green 1 red".Split(' ');
             int count = 0;
-            for (int i = 0; i < n; i++)
+            string tempNumber = inputs[0];
+            string tempColor = inputs[1];
+            for (int i = 2; i < inputs.Length; i++)
             {
-                string[] inputs = {"4 blue 7 blue 7 yellow 7 green 0 green 1 green 1 green 1 red"};
-                string v = inputs[0];
-                string c = inputs[1];
-                if (!((c[i] == c[i - 1]) && (v[i] == v[i - 1])))
-                {
+                string number = inputs[i];
+                string color = inputs[++i];
+                if (!(tempNumber == number || tempColor == color))
                     count++;
-                }
+                tempNumber = number;
+                tempColor = color;
+                Console.WriteLine($"{number} {color}");
             }
-            if (count == 0)
-                Console.WriteLine("Correct");
-            else
-                Console.WriteLine($"Incorrect:{count}");
+            Console.WriteLine(count == 0 ? "Correct" : $"Incorrect count is {count}");
         }
     }
 }
