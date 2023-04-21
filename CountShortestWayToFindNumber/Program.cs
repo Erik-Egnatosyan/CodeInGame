@@ -20,7 +20,8 @@
             }
             Console.WriteLine("Минимальное количество монет: " + result.Count);
             Console.WriteLine("Монеты: " + string.Join(", ", result));
-            Console.WriteLine(string.Join(", ", coins));
+
         }
+
     }
 }
