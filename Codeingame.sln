@@ -45,7 +45,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaysInMonth", "DaysInMonth\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountShortestWayToFindNumber", "CountShortestWayToFindNumber\CountShortestWayToFindNumber.csproj", "{8A0C58DD-FC66-4F67-A0DB-6837E267D099}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{A0642675-A839-4E91-B313-1D788F55A756}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoSum", "TwoSum\TwoSum.csproj", "{A0642675-A839-4E91-B313-1D788F55A756}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Add Two Numbers", "Add Two Numbers\Add Two Numbers.csproj", "{9B54B189-5330-470A-829E-080616912700}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pyramid of number", "Pyramid of number\Pyramid of number.csproj", "{90DDB12A-89FC-4139-B15D-8D5116876E0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClosestWorkPlace", "ClosestWorkPlace\ClosestWorkPlace.csproj", "{4C26899E-DCC3-49D1-999B-A4EB4F0B5E3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +147,18 @@ Global
 		{A0642675-A839-4E91-B313-1D788F55A756}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0642675-A839-4E91-B313-1D788F55A756}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0642675-A839-4E91-B313-1D788F55A756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B54B189-5330-470A-829E-080616912700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B54B189-5330-470A-829E-080616912700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B54B189-5330-470A-829E-080616912700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B54B189-5330-470A-829E-080616912700}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90DDB12A-89FC-4139-B15D-8D5116876E0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90DDB12A-89FC-4139-B15D-8D5116876E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90DDB12A-89FC-4139-B15D-8D5116876E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90DDB12A-89FC-4139-B15D-8D5116876E0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C26899E-DCC3-49D1-999B-A4EB4F0B5E3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C26899E-DCC3-49D1-999B-A4EB4F0B5E3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C26899E-DCC3-49D1-999B-A4EB4F0B5E3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C26899E-DCC3-49D1-999B-A4EB4F0B5E3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,10 +4,9 @@
     {
         static void Main(string[] args)
         {
-            //int[] nums = { 1, 2, 3, 4, 5, 6 };
-            //int[] result = TwoSum(nums, 5);
-            //Console.WriteLine($"[{result[0]},{result[1]}]");
-            SquareCount();
+            int[] nums = { 1, 2, 3, 4, 5, 6 };
+            int[] result = TwoSum(nums, 5);
+            Console.WriteLine($"[{result[0]},{result[1]}]");
         }
         public static int[] TwoSum(int[] nums, int target)
         {
@@ -24,16 +23,6 @@
                 }
             }
             return ints;
-        }
-        public static void SquareCount()
-        {
-            int x = 8;
-            double sum = 0;
-            for (int i = 0; i < x; i++)
-            {
-                sum += Math.Pow(i,2);
-            }
-            Console.WriteLine(sum);
         }
     }
 }
