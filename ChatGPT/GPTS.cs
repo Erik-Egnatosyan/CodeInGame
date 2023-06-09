@@ -77,7 +77,6 @@ namespace ChatGPT
                     }
                 }
             }
-
             void SecondStep()
             {
                 sb.Clear();
