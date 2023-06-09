@@ -51,7 +51,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Add Two Numbers", "Add Two 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pyramid of number", "Pyramid of number\Pyramid of number.csproj", "{90DDB12A-89FC-4139-B15D-8D5116876E0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClosestWorkPlace", "ClosestWorkPlace\ClosestWorkPlace.csproj", "{4C26899E-DCC3-49D1-999B-A4EB4F0B5E3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClosestWorkPlace", "ClosestWorkPlace\ClosestWorkPlace.csproj", "{4C26899E-DCC3-49D1-999B-A4EB4F0B5E3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGPT", "ChatGPT\ChatGPT.csproj", "{622E085A-F2A5-4DE8-A34B-1386B9D84FB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{4C26899E-DCC3-49D1-999B-A4EB4F0B5E3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C26899E-DCC3-49D1-999B-A4EB4F0B5E3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C26899E-DCC3-49D1-999B-A4EB4F0B5E3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{622E085A-F2A5-4DE8-A34B-1386B9D84FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{622E085A-F2A5-4DE8-A34B-1386B9D84FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{622E085A-F2A5-4DE8-A34B-1386B9D84FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{622E085A-F2A5-4DE8-A34B-1386B9D84FB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,11 +1,14 @@
-﻿namespace ReverseElement
+﻿using System.Text;
+
+namespace ReverseElement
 {
     internal class Program
     {
         static void Main(string[] args)
         {
             //FirstVariant();
-            SecondVariant();
+            //SecondVariant();
+            ThirdVariant();
         }
         public static void FirstVariant()
         {
@@ -28,6 +31,16 @@
             string b = Console.ReadLine();
             string input = Console.ReadLine();
             Console.WriteLine(input.Replace(a,"1").Replace(b,a).Replace("1",b));
+        }
+        public static void ThirdVariant()
+        {
+            string name = "Hello World!";
+            StringBuilder sb = new StringBuilder();
+            for (int i = name.Length - 1; i >= 0; i--)
+            {
+                sb.Append(name[i]);
+            }
+            Console.WriteLine(sb);
         }
     }
 }
