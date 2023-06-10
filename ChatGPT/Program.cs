@@ -8,6 +8,7 @@ internal class Program
         GPTS gpt = new GPTS();
         //gpt.CountGlas();
         //gpt.FindMaxLength();
-        gpt.Math();
+        //gpt.Math();
+        gpt.Math2();
     }
 }

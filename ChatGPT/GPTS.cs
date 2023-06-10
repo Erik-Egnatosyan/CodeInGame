@@ -98,5 +98,18 @@ namespace ChatGPT
                 sb.Append(temp);
             }
         }
+        public void Math2()
+        {
+            Console.Write("Введите математическое выражение: ");
+            string input = Console.ReadLine();
+            double result = Evaluate(input);
+            Console.WriteLine("Результат: " + result);
+
+            double Evaluate(string expression)
+            {
+                System.Data.DataTable table = new System.Data.DataTable();
+                return Convert.ToDouble(table.Compute(expression, ""));
+            }
+        }
     }
 }
