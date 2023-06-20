@@ -9,6 +9,10 @@ internal class Program
         //gpt.CountGlas();
         //gpt.FindMaxLength();
         //gpt.Math();
-        gpt.Math2();
+        //gpt.Math2();
+        int a = 5;
+        int b = 4;
+        (b, a) = (a, b);
+        Console.WriteLine(a);
     }
 }
