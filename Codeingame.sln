@@ -55,7 +55,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClosestWorkPlace", "Closest
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatGPT", "ChatGPT\ChatGPT.csproj", "{622E085A-F2A5-4DE8-A34B-1386B9D84FB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberAndSimbol", "NumberAndSimbol\NumberAndSimbol.csproj", "{7C84D30D-8A9E-490C-8075-2E2BD2853DA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberAndSimbol", "NumberAndSimbol\NumberAndSimbol.csproj", "{7C84D30D-8A9E-490C-8075-2E2BD2853DA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sobesedovanie", "Sobesedovanie", "{27F47589-F4EB-45ED-AFA0-09348DD9E184}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{E4C1A6CD-0FF5-4979-87C6-0625F3CB0653}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,9 +175,16 @@ Global
 		{7C84D30D-8A9E-490C-8075-2E2BD2853DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C84D30D-8A9E-490C-8075-2E2BD2853DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C84D30D-8A9E-490C-8075-2E2BD2853DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4C1A6CD-0FF5-4979-87C6-0625F3CB0653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4C1A6CD-0FF5-4979-87C6-0625F3CB0653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4C1A6CD-0FF5-4979-87C6-0625F3CB0653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4C1A6CD-0FF5-4979-87C6-0625F3CB0653}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E4C1A6CD-0FF5-4979-87C6-0625F3CB0653} = {27F47589-F4EB-45ED-AFA0-09348DD9E184}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {07E63DB3-350E-408D-BD76-99071C8DED70}
